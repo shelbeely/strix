@@ -1,0 +1,32 @@
+---
+title: "MiniMax"
+description: "Configure Strix with MiniMax M2.7 via OpenRouter"
+---
+
+## Setup
+
+```bash
+export STRIX_LLM="openrouter/minimax/minimax-m2.7"
+export LLM_API_KEY="sk-or-..."
+```
+
+## Available Models
+
+| Model | Configuration |
+|-------|---------------|
+| MiniMax M2.7 | `openrouter/minimax/minimax-m2.7` |
+
+## Get API Key
+
+1. Go to [openrouter.ai](https://openrouter.ai)
+2. Sign in and navigate to Keys
+3. Create a new API key
+
+## Strix Shorthand
+
+Use the `strix/` prefix as a shorthand:
+
+```bash
+export STRIX_LLM="strix/minimax-m2.7"
+export LLM_API_KEY="sk-or-..."
+```

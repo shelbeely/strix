@@ -38,7 +38,8 @@
               "llm-providers/vertex",
               "llm-providers/bedrock",
               "llm-providers/azure",
-              "llm-providers/local"
+              "llm-providers/local",
+              "llm-providers/minimax"
             ]
           },
           {
