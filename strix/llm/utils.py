@@ -41,6 +41,7 @@ STRIX_MODEL_MAP: dict[str, str] = {
     "gemini-3-flash-preview": "gemini/gemini-3-flash-preview",
     "glm-5": "openrouter/z-ai/glm-5",
     "glm-4.7": "openrouter/z-ai/glm-4.7",
+    "step-3.5-flash": "openrouter/stepfun/step-3.5-flash",
 }
 
 
